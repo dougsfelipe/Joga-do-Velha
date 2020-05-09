@@ -7,8 +7,10 @@ describe('AppComponent', () => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent,
+        
+      ],imports:[
         JogoDaVelhaModule
-      ],
+      ]
     }).compileComponents();
   }));
 
